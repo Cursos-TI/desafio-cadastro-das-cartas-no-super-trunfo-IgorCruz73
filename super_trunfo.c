@@ -101,3 +101,5 @@ printf("População: %i\n", População2 );
 printf("Área(em km²): %f\n" , Área2);
 printf("PIB: %f\n" , PIB2);
 printf("Número de Pontos Turísticos: %i\n" , Número2);
+return 0;
+}
