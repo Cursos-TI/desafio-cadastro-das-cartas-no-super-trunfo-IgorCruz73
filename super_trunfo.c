@@ -19,3 +19,33 @@ char Código1[50];
 char Código2[50];
 char Nome1[50];
 char Nome2[50];
+
+//Inicio do desafio
+
+//Escolha uma letra de 'A' a 'H' representando um dos oito estados
+printf("Estado: \n");
+scanf("%s" , &Estado1);
+
+//A letra do estado seguida de um número de 01 a 04 (ex: A01, B03)
+printf("Código da Carta: \n");
+scanf("%s" , &Código1);
+
+//Escolha o nome da cidade
+printf("Nome da Cidade: \n");
+scanf("%s" , &Nome1);
+
+//O número de habitantes da cidade
+printf("População: \n");
+scanf("%i" , &População1);
+
+//A área da cidade em quilômetros quadrados
+printf("Área(em km²): \n");
+scanf("%f" , &Área1);
+
+//O Produto Interno Bruto da cidade
+printf("PIB: \n");
+scanf("%f" , &PIB1);
+
+//A quantidade de pontos turísticos na cidade
+printf("Número de Pontos Turísticos: \n");
+scanf("%i" , &Número1);
