@@ -56,7 +56,38 @@ printf("Carta 01: \n");
 printf("Estado: %s\n" , Estado1);
 printf("Código da Carta: %s\n" , Código1);
 printf("Nome da Cidade: %s\n", Nome1);
-printf("População:  %i\n" , População1 );
+printf("População:  %i\n" , População1);
 printf("Área(em km²): %f\n", Área1);
 printf("PIB: %f\n", PIB1);
 printf("Número de Pontos Turísticos: %i\n", Número1);
+
+//Agora insira os dados da segunda carta
+printf("Insira os dados da Carta N°2 \n");
+
+//Escolha uma letra de 'A' a 'H' representando um dos oito estados
+printf("Estado: \n");
+scanf("%s" , &Estado2);
+
+//A letra do estado seguida de um número de 01 a 04 (ex: A01, B03)
+printf("Código da Carta: \n");
+scanf("%s" , &Código2);
+
+//Escolha o nome da cidade
+printf("Nome da Cidade: \n");
+scanf("%s" , &Nome2);
+
+//O número de habitantes da cidade
+printf("População: \n");
+scanf("%i" , &População2);
+
+//A área da cidade em quilômetros quadrados
+printf("Área(em km²): \n");
+scanf("%f" , &Área2);
+
+//O Produto Interno Bruto da cidade
+printf("PIB: \n");
+scanf("%f" , &PIB2);
+
+//A quantidade de pontos turísticos na cidade
+printf("Número de Pontos Turísticos: \n");
+scanf("%i" , &Número2);
