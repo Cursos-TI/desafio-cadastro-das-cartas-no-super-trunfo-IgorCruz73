@@ -91,3 +91,13 @@ scanf("%f" , &PIB2);
 //A quantidade de pontos turísticos na cidade
 printf("Número de Pontos Turísticos: \n");
 scanf("%i" , &Número2);
+
+//Informações da segunda carta:
+printf("Carta 02: \n");
+printf("Estado: %s\n" , Estado2);
+printf("Código da Carta: %s\n" , Código2);
+printf("Nome da Cidade: %s\n" , Nome2);
+printf("População: %i\n", População2 );
+printf("Área(em km²): %f\n" , Área2);
+printf("PIB: %f\n" , PIB2);
+printf("Número de Pontos Turísticos: %i\n" , Número2);
