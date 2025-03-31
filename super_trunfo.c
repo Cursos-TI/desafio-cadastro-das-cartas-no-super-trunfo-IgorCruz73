@@ -20,6 +20,11 @@ char Codigo1[50];
 char Codigo2[50];
 char Nome1[50];
 char Nome2[50];
+float DensidadePopulacional1;
+float PerCapita1;
+float DensidadePopulacional2;
+float PerCapita2;
+
 
 //Inicio do desafio
 
