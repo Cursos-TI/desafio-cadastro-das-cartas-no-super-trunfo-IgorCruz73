@@ -69,9 +69,11 @@ printf("Estado: %s\n" , Estado1);
 printf("Código da Carta: %s\n" , Codigo1);
 printf("Nome da Cidade: %s\n", Nome1);
 printf("População:  %i\n" , Populacao1);
-printf("Área(em km²): %f\n", Area1);
-printf("PIB: %f\n", PIB1);
+printf("Área(em km²): %.2f\n", Area1);
+printf("PIB: %.2f\n", PIB1);
 printf("Número de Pontos Turísticos: %i\n", Numero1);
+printf("Densidade Populacional(hab/km²): %.2f\n", DensidadePopulacional1);
+printf("PIB Per Capita: %.2f\n", PerCapita1);
 
 //Agora insira os dados da segunda carta
 printf("Insira os dados da Carta N°2 \n");
@@ -116,8 +118,10 @@ printf("Estado: %s\n" , Estado2);
 printf("Código da Carta: %s\n" , Codigo2);
 printf("Nome da Cidade: %s\n" , Nome2);
 printf("População: %i\n", Populacao2);
-printf("Área(em km²): %f\n" , Area2);
-printf("PIB: %f\n" , PIB2);
+printf("Área(em km²): %.2f\n" , Area2);
+printf("PIB: %.2f\n" , PIB2);
 printf("Número de Pontos Turísticos: %i\n" , Numero2);
+printf("Densidade Populacional(hab/km²): %.2f\n", DensidadePopulacional2);
+printf("PIB Per Capita: %.2f\n", PerCapita2);
 return 0;
 }
