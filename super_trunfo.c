@@ -107,12 +107,13 @@ printf("Número de Pontos Turísticos: \n");
 scanf("%i" , &Numero2);
 
 //Divisão para termos a Densidade Populacional, que representa o número de habitantes por quilômetro quadrado
-DensidadePopulacional1 = Populacao2 / Area2;
+DensidadePopulacional2 = Populacao2 / Area2;
 
 //Divisão para termos o PIB Per Capita, que indica a riqueza média por pessoa na cidade
-PerCapita1 = PIB1 / Populacao2;
+PerCapita2 = PIB2 / Populacao2;
 
 //Informações da segunda carta:
+printf("Dados das Cartas \n");
 printf("Carta 02: \n");
 printf("Estado: %s\n" , Estado2);
 printf("Código da Carta: %s\n" , Codigo2);
@@ -123,5 +124,6 @@ printf("PIB: %.2f\n" , PIB2);
 printf("Número de Pontos Turísticos: %i\n" , Numero2);
 printf("Densidade Populacional(hab/km²): %.2f\n", DensidadePopulacional2);
 printf("PIB Per Capita: %.2f\n", PerCapita2);
+
 return 0;
 }
