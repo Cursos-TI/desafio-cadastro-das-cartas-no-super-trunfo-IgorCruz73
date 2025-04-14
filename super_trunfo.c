@@ -24,7 +24,8 @@ float DensidadePopulacional1;
 float PerCapita1;
 float DensidadePopulacional2;
 float PerCapita2;
-
+float SuperPoder1;
+float SuperPoder2;
 
 //Inicio do desafio
 
