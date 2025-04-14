@@ -78,6 +78,7 @@ printf("PIB: %.2f\n", PIB1);
 printf("Número de Pontos Turísticos: %i\n", Numero1);
 printf("Densidade Populacional(hab/km²): %.2f\n", DensidadePopulacional1);
 printf("PIB Per Capita: %.2f\n", PerCapita1);
+printf("Super Poder: %f\n", SuperPoder1);
 
 //Agora insira os dados da segunda carta
 printf("Insira os dados da Carta N°2 \n");
@@ -132,6 +133,7 @@ printf("PIB: %.2f\n" , PIB2);
 printf("Número de Pontos Turísticos: %i\n" , Numero2);
 printf("Densidade Populacional(hab/km²): %.2f\n", DensidadePopulacional2);
 printf("PIB Per Capita: %.2f\n", PerCapita2);
+printf("Super Poder: %f\n", SuperPoder2);
 
 return 0;
 }
