@@ -135,5 +135,15 @@ printf("Densidade Populacional(hab/km²): %.2f\n", DensidadePopulacional2);
 printf("PIB Per Capita: %.2f\n", PerCapita2);
 printf("Super Poder: %f\n", SuperPoder2);
 
+// Na comparação de cartas, o resultado: 1 para ser maior – Carta 1 vence – e 0 para ser maior – Carta 2 vence
+printf("Comparação de Cartas: \n");
+printf("A maior população é da carta: %d\n", Populacao1 > Populacao2);
+printf("A maior área é da carta: %d\n", Area1 > Area2);
+printf("O maior pib é da carta: %d\n", PIB1 > PIB2);
+printf("O maior número de pontos turísticos é da carta: %d\n", Numero1 > Numero2);
+printf("A maior densidade populacional é da carta: %d\n", DensidadePopulacional1 < DensidadePopulacional2);
+printf("O maior pib per capita é da carta: %d\n", PerCapita1 > PerCapita2);
+printf("O maior super poder é da carta: %d\n", SuperPoder1 > SuperPoder2);
+
 return 0;
 }
