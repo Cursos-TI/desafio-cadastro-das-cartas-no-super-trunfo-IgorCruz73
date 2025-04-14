@@ -63,6 +63,9 @@ DensidadePopulacional1 = Populacao1 / Area1;
 //Divisão para termos o PIB Per Capita, que indica a riqueza média por pessoa na cidade
 PerCapita1 = PIB1 / Populacao1;
 
+//Soma total das variáveis para determinar o poder da carta
+SuperPoder1 = (float) (Populacao1 + Area1 + PIB1 + Numero1 + PerCapita1 + 1/DensidadePopulacional1  );
+
 //Informações da primeira carta:
 printf("Dados das Cartas \n");
 printf("Carta 01: \n");
@@ -112,6 +115,10 @@ DensidadePopulacional2 = Populacao2 / Area2;
 
 //Divisão para termos o PIB Per Capita, que indica a riqueza média por pessoa na cidade
 PerCapita2 = PIB2 / Populacao2;
+
+//Soma total das variáveis para determinar o poder da carta
+SuperPoder1 = (float) (Populacao2 + Area2 + PIB2 + Numero2 + PerCapita2 + 1/DensidadePopulacional2  );
+
 
 //Informações da segunda carta:
 printf("Dados das Cartas \n");
